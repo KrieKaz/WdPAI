@@ -3,22 +3,45 @@ body{
 }
 
 .container {
+
     width: 100vw;
     height: 100vh;
 
-    display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    background: transparent linear-gradient(180deg, #4197C8 0%, rgba(71, 46, 223, 0.88) 100%) 0% 0% no-repeat padding-box;;
+
 }
 
+.inter_container{
+    justify-content: center;
+
+}
 .logo{
+    margin: 0 auto;
+
     width: 50%;
-    text-align: center;
+    top: 125px;
+
+}
+.img_logo{
+    margin: 0 auto;
+    top: 250px;
+    width: auto;
+    height: 100%;
+    max-height: 20vh;
+
 }
 
-.logo-container{
+.login-container{
+    margin: 0 auto;
+    top: 125vh;
     width: 50%;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -34,6 +57,7 @@ form{
 
 
 form.login{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;

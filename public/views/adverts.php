@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type = "text/css" href="../css/style.css">
+    <link rel="stylesheet" type = "text/css" href="public/css/style.css">
+    <link rel="<link rel="stylesheet" type = "text/css" href="public/css/adverts.css">
+
     <title>Main Page</title>
 </head>
 
 <body>
     <div class="base-container">
         <nav>
-            <img src="../img/logo.svg">
+            <img src="public/img/tuwent_pion.svg">
             <ul>
                 <li>
                     <i class="fa-solid fa-shield-exclamation"></i>
@@ -43,7 +45,7 @@
                 </div>
 
             </header>
-            <section class="tabs">
+            <section class="adverts">
                 <li>
 
                     <a href="#" class ="button">damages</a>

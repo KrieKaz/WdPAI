@@ -1,4 +1,5 @@
  <?php
+global APP_ROOT = __DIR__;
 
 require "Routing.php";
 
